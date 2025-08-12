@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <img src="me.me/My Logo.png" alt="logo">
+            <div class="about-brian">Contact Me</div>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="contact-container">
+            <h1>Get in Touch</h1>
+            <p class="contact-intro">I’m excited to connect and explore opportunities in tech and education. Drop me a message or reach out via my socials!</p>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <label for="name"><span class="icon-user">👤</span> Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><span class="icon-envelope">✉️</span> Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><span class="icon-message">💬</span> Message</label>
+                            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn"><span class="icon-paper-plane">✈️</span> Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-details">
+                    <h2>Contact Details</h2>
+                    <ul>
+                        <li>
+                            <span class="icon-envelope">✉️</span>
+                            <a href="mailto:braunsbrian01@gmail.com">braunsbrian01@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="icon-linkedin">in</span>
+                            <a href="https://linkedin.com/in/brauns-brian-8184a3273" target="_blank" rel="noopener">LinkedIn</a>
+                        </li>
+                        <li>
+                            <span class="icon-github">GH</span>
+                            <a href="https://github.com/Brauns254" target="_blank" rel="noopener">GitHub</a>
+                        </li>
+                        <li>
+                            <span class="icon-x">X</span>
+                            <a href="https://x.com/@BRIANBRAUNS11" target="_blank" rel="noopener">X</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
